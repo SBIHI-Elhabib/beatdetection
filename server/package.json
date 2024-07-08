@@ -1,0 +1,19 @@
+{
+  "name": "instagram-audio-extractor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.9.7",
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "uuid": "^8.3.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
